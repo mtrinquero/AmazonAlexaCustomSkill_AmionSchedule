@@ -1,0 +1,22 @@
+{
+    "intents": [
+        {
+            "intent": "getScheduleData",
+            "slots": [
+                {
+                    "name": "employee",
+                    "type": "AMAZON.person"
+                }
+            ]
+        },
+        {
+            "intent": "AMAZON.HelpIntent"
+        },
+        {
+            "intent": "AMAZON.StopIntent"
+        },
+        {
+            "intent": "AMAZON.CancelIntent"
+        }
+    ]
+}
